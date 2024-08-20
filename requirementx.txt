@@ -1,0 +1,6 @@
+numpy
+geopandas
+dask
+xarray
+rioxarray
+tqdm
