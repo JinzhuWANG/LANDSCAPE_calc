@@ -21,7 +21,7 @@ def clip_raster(raster, name):
     # Clip the raster with the city shp
     clipped_raster = raster.rio.clip(vector.geometry)
     # Save clipped raster
-    clipped_raster.rio.to_raster(f"data/clipped_rasters/{name}1.tif", compress='LZW')
+    clipped_raster.rio.to_raster(f"data/clipped_rasters/{name}.tif", compress='LZW')
 
 
 # Define the parallel object
